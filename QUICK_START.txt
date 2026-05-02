@@ -1,0 +1,52 @@
+╔════════════════════════════════════════════════════════════════╗
+║                    PAUSE APP - QUICK START                    ║
+╚════════════════════════════════════════════════════════════════╝
+
+1. EXTRACT THE PROJECT
+   ├─ Unzip the pause_app.zip file
+   └─ Open the pause_app folder
+
+2. OPEN IN ANDROID STUDIO
+   ├─ Launch Android Studio
+   ├─ Click "Open" → Select pause_app folder
+   └─ Wait for Gradle sync (2-3 minutes)
+
+3. BUILD THE APK
+   ├─ Go to Build → Build Bundle(s)/APK(s) → Build APK(s)
+   ├─ Select "Debug"
+   └─ Wait for build to complete
+
+4. INSTALL ON DEVICE
+   ├─ Connect Android device (8.0+)
+   ├─ Click Run → Run 'app'
+   └─ Or use: adb install app/build/outputs/apk/debug/app-debug.apk
+
+5. GRANT PERMISSIONS
+   ├─ Open Pause app
+   ├─ Grant Notification Listener permission
+   └─ Grant other permissions when prompted
+
+6. START USING
+   ├─ Customize digest times in Settings
+   ├─ Add VIP contacts (optional)
+   ├─ Toggle Pause ON
+   └─ Enjoy focused notifications!
+
+TROUBLESHOOTING:
+─────────────────
+❌ "Java 17 required" → Set JAVA_HOME to Java 17
+❌ Gradle sync fails → Click File → Sync Now
+❌ Build fails → Run ./gradlew clean
+❌ Won't install → Ensure Android 8.0+
+
+FEATURES:
+─────────
+✅ Smart notification batching
+✅ Daily digest summaries
+✅ VIP contact management
+✅ Quick settings tile
+✅ Home screen widget
+✅ AdMob ads
+✅ Google Play Billing ($0.20)
+
+For detailed instructions, see: BUILD_INSTRUCTIONS.md

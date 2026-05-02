@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Pause</string>
+    <string name="pause_notifications">Pause Notifications</string>
+    <string name="daily_digest">Daily Digest</string>
+    <string name="settings">Settings</string>
+</resources>
